@@ -13,9 +13,7 @@
                                 </h5>
                                 <div class="card-text">
                                     ${{ $product['price'] }}
-                                    <a href="#" class="btn btn-danger btn-sm ml-4">Remove</a>
-                                    <input type="text" name="qty" id="qty" value={{ $product['qty'] }}>
-                                    <a href="#" class="btn btn-secondary btn-sm">Change</a>  
+                                    <span>({{ $product['qty'] }} piece)</span>
                                 </div>
                             </div>
                         </div>
